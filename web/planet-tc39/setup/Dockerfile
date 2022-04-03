@@ -7,7 +7,10 @@ RUN addgroup -S ctfgroup && adduser -S ctfuser -G ctfgroup
 RUN chown ctfuser -R /ctf/
 USER ctfuser
 
-RUN tar -cf ./planet-tc39.tar.gz --exclude='.env' .
+RUN mv .env .tmp-env
+RUN sed 's/{.*}/{FAKE_FLAG}/i' .tmp-env > .env
+RUN tar -cf ./static/planet-tc39.tar.gz --exclude='.tmp-env' .
+RUN mv .tmp-env .env
 
 RUN npm install --ignore-scripts
 
