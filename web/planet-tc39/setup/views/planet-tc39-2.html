@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      function launch() {
+        const aVal = a.valueAsNumber;
+        const bVal = b.valueAsNumber;
+
+        fetch('/planet-tc39-2', {
+          method: 'POST',
+          body: JSON.stringify({ a: aVal, b: bVal }),
+          headers: { 'Content-Type': 'application/json' },
+        })
+          .then((res) => res.text())
+          .then((res) => (result.innerHTML = res))
+          .catch((e) => (result.innerHTML = 'oops.'));
+      }
+    </script>
+  </head>
+  <body
+    class="container mx-auto w-full font-mono pt-32"
+    style="background-image: url('/static/bg.jpg'); background-size: cover"
+  >
+    <div
+      class="container p-4 text-green-400 bg-[#7c3aed55] rounded-md mx-auto w-1/2 text-center"
+    >
+      <p class="text-lg text-center mb-2 bg-black inline-block px-4">
+        Hey Morty.
+      </p>
+      <h1 class="text-lg text-center mb-2 bg-black inline-block px-4">
+        Penetrate the core of Planet-TC39-2 to capture that alien flag.
+      </h1>
+      <p class="text-lg text-center mb-8 bg-black inline-block px-4">
+        Use your brain Morty!
+      </p>
+      <div class="container">
+        <input
+          type="number"
+          id="a"
+          class="mx-auto my-4 p-2 focus:ring-indigo-500 focus:border-indigo-500 block shadow-sm sm:text-sm border border-gray-300 rounded-md"
+        />
+        <input
+          type="number"
+          id="b"
+          class="mx-auto my-4 p-2 focus:ring-indigo-500 focus:border-indigo-500 block shadow-sm sm:text-sm border border-gray-300 rounded-md"
+        />
+        <button
+          onclick="launch()"
+          class="mx-auto mt-8 block text-sm text-slate-500 py-2 px-4 rounded-full border-0 text-sm font-semibold bg-violet-50 text-violet-700 hover:bg-violet-100"
+        >
+          Launch!
+        </button>
+        <div
+          id="result"
+          class="mt-8 mx-auto text-center bg text-lg bg-black px-4"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
