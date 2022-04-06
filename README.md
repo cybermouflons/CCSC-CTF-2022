@@ -16,6 +16,12 @@ Port 8000 will be used for serving static artifacts
 
 ## Challenges
 
+### Stego
+
+| Name             | Author | Ports |
+| ---------------- | ------ | ----- |
+| [UFO](stego/ufo) | koks   | -     |
+
 ### Web
 
 | Name                           | Author | Ports |
