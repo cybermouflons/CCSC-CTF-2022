@@ -18,9 +18,10 @@ Port 8000 will be used for serving static artifacts
 
 ### Stego
 
-| Name             | Author | Ports |
-| ---------------- | ------ | ----- |
-| [UFO](stego/ufo) | koks   | -     |
+| Name                               | Author | Ports |
+| ---------------------------------- | ------ | ----- |
+| [UFO](stego/ufo)                   | koks   | -     |
+| [Meeting Area](stego/meeting-area) | koks   | -     |
 
 ### Web
 
@@ -30,6 +31,6 @@ Port 8000 will be used for serving static artifacts
 
 ### Pwn
 
-| Name                           | Author | Ports |
-| ------------------------------ | ------ | ----- |
-| [Custom_heap_allocator](pwn/custom_heap_allocator) | condiom   | 1337  |
+| Name                                               | Author  | Ports |
+| -------------------------------------------------- | ------- | ----- |
+| [Custom_heap_allocator](pwn/custom_heap_allocator) | condiom | 1337  |
