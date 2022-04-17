@@ -34,3 +34,4 @@ Port 8000 will be used for serving static artifacts
 | Name                                               | Author  | Ports |
 | -------------------------------------------------- | ------- | ----- |
 | [Custom_heap_allocator](pwn/custom_heap_allocator) | condiom | 1337  |
+| [automated_pwn](pwn/automated_pwn) | condiom | 1338  |
