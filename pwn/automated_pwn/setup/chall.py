@@ -35,15 +35,45 @@ def runB64(b64Prog, progInput):
             input=str(progInput)+'\n', encoding='ascii')
     return p.stdout, p.returncode
 
-fakeFunction = ""
-for i in range(0,random.randint(1,100)):
-    fakeFunction = fakeFunction + """
-     void loseFunction"""+ str(i) + """()
-    {
-        printf("Cool");
-        exit(0);
-    }
-    """
+MAX_FUNCTIONS = 10
+rick = random.randint(0,MAX_FUNCTIONS-1)
+notRick = ""
+for i in range(0,MAX_FUNCTIONS):
+    if i == rick:
+        notRick += """
+        void iAmRealRick"""+ str(i) + """()
+        {
+            printf("Thank you for saving me");
+            exit(0);
+        }
+        """
+    else:
+        notRick = notRick + """
+        void iAmRealRick"""+ str(i) + """()
+        {
+            printf("Sucker");
+            exit(1);
+        }
+        """
+morty = random.randint(0,MAX_FUNCTIONS-1)
+notMorty = ""
+for i in range(0,MAX_FUNCTIONS):
+    if i == morty:
+        notMorty = notMorty + """
+        void iAmRealMorty"""+ str(i) + """()
+        {
+            printf("Thank you for saving me");
+            exit(0);
+        } 
+        """
+    else:
+        notMorty = notMorty + """
+        void iAmRealMorty"""+ str(i) + """()
+        {
+            printf("Sucker");
+            exit(1);
+        }
+        """
 binaries = [
     {
         "code": """
@@ -52,16 +82,11 @@ binaries = [
     #include <string.h>
     #include <ctype.h>
 
-    """ + fakeFunction + """
-    void winFunction()
-    {
-        printf("Cool");
-        exit(0);
-    }
+    """ + notRick + """
     int main(int argc, char **argv)
     {
         char name[256];
-        printf("What is your name my friend:\\n");
+        printf("Hi am Rick. Who are you?\\n");
         scanf("%s", name);
         printf("Hello %s \\n",name);
         return 1;
@@ -75,16 +100,11 @@ binaries = [
     #include <stdlib.h>
     #include <string.h>
     #include <ctype.h>
-    """ + fakeFunction + """
-    void winFunction()
-    {
-        printf("Cool");
-        exit(0);
-    }
+    """ + notMorty + """
     int main(int argc, char **argv)
     {
         char name[0xff];
-        printf("What is your name:\\n");
+        printf("Hi am Morty. Who are you?\\n");
         int t = read(0, name, 0xff);
         if(name[t-1] == '\\n'){
             name[t-1] = '\\0';
@@ -104,25 +124,28 @@ binaries = [
 
 random.shuffle(binaries)
 
+print("Please help me defeat the parasites and find the real Rick and Morty.")
+print("We were able to intercept this communications between parasites.")
+print("It seems that we can run them through a machine with an input.")
+print("Can you help me find the correct input?")
+
 successCounter = 0
 for i in range(0, len(binaries)):
     b64Prog = createProg(binaries[i])
 
-    print("Base64 code:")
+    print("Message:")
     print(b64Prog.decode())
-    print("Base64 code end")
-    payload = input("Enter your payload:")
+    print("Message end")
+    payload = input("Enter your input:")
     payload = payload.encode('utf8','surrogateescape')
     output, returncode = runTemp(payload)
     os.remove("./temp")
-    # print("Exit code: {} Output {}".format(returncode, output))
     if returncode == 0:
         successCounter = successCounter + 1
-        print("exploit success")
+        print("Thank you kind friend. It seems we killed a parasite family. I hope you are not a parasite too")
     else:
-        print("exploit fail")
+        print("Input failed. The parasites killed Morty and Rick and now they are rule all the world")
         break
-    # output, returncode = runB64(b64Prog, progInput)
 if successCounter == len(binaries):
     f = open("flag.txt", "r")
     flag = f.read()
