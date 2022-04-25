@@ -28,7 +28,7 @@ Port 8000 will be used for serving static artifacts
 | Name                           | Author | Ports |
 | ------------------------------ | ------ | ----- |
 | [Planet-TC39](web/planet-tc39) | koks   | 3000  |
-
+| [Morty's Cleanup List](web/morty's-list) | s1kk1s   | 5000  |
 ### Pwn
 
 | Name                                               | Author  | Ports |
