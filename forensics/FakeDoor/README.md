@@ -14,13 +14,15 @@ Rick was furious when he heard that his naïve nephew Morty clicked on a phishin
 
 <details>
 <summary>Reveal Spoiler</summary>
-Linux_lsof plugin shows that the backd000r process has an opened file named s3cr3t.
-Linux_Volshell plugin should be used to determine the inode number of the opened file.
-Run the following commands in the volshell:
-	cc(pid=1378)
-	for fd in self._proc.lsof():
-		//where fd is a tuple where the first entry is a linux_file object
-		dt(fd[0])->f_inode is the inode number of the s3cr3t file
-Dump the s3cr3t file using: volatility -f dump.mem --profile=LinuxDebian_3_16_0-11-amd64_profilex64 linux_find_file --inode=0xffff88001a785850 -O s3cr3t
+	
+	1. Linux_lsof plugin shows that the backd000r process has an opened file named s3cr3t.
+
+	2. Linux_volshell plugin should be used to determine the inode number of the opened file.
+
+	3. Run the following commands in the volshell:
+		- cc(pid=1378)
+		- for fd in self._proc.lsof():
+		- dt(fd[0])
+	5. Dump the s3cr3t file using: volatility -f dump.mem --profile=LinuxDebian_3_16_0-11-amd64_profilex64 linux_find_file --inode=0xffff88001a785850 -O s3cr3t
 
 </details>
