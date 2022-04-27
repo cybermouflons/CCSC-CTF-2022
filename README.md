@@ -1,3 +1,4 @@
+![CCSC CTF 2021](_assets/banner.png)
 # CCSC-CTF-2022
 
 ## Repository Structure
@@ -16,6 +17,12 @@ Port 8000 will be used for serving static artifacts
 
 ## Challenges
 
+### Misc
+
+| Name                            | Author | Ports |
+| ------------------------------- | ------ | ----- |
+| [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
+
 ### Stego
 
 | Name                               | Author | Ports |
@@ -25,13 +32,13 @@ Port 8000 will be used for serving static artifacts
 
 ### Web
 
-| Name                           | Author | Ports |
-| ------------------------------ | ------ | ----- |
-| [Planet-TC39](web/planet-tc39) | koks   | 3000  |
-| [Morty's Cleanup List](web/morty's-list) | s1kk1s   | 5000  |
+| Name                                     | Author | Ports |
+| ---------------------------------------- | ------ | ----- |
+| [Planet-TC39](web/planet-tc39)           | koks   | 3000  |
+| [Morty's Cleanup List](web/morty's-list) | s1kk1s | 5000  |
 ### Pwn
 
 | Name                                               | Author  | Ports |
 | -------------------------------------------------- | ------- | ----- |
 | [Custom_heap_allocator](pwn/custom_heap_allocator) | condiom | 1337  |
-| [automated_pwn](pwn/automated_pwn) | condiom | 1338  |
+| [automated_pwn](pwn/automated_pwn)                 | condiom | 1338  |

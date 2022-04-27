@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+  pickle-rick:
+    build: ./pickle-rick
+    hostname: pickle-rick
+    restart: always
+
+  discord-bot:
+    build: ./discord-bot
+    hostname: discord-bot
+    restart: always
+    links:
+      - pickle-rick
