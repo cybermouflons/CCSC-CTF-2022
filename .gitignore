@@ -3,3 +3,4 @@
 .mongodb
 
 **/__pycache__
+**/misc
