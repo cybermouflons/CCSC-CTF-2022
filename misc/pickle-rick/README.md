@@ -10,7 +10,7 @@ It's Pickle Riiiick! Morty \*burp\* look at me! Not only am I a pickle, I can pl
 <details>
  <summary>Reveal Spoiler</summary>
 
-The first step is to inspect the code of the challenge using the `!code` command. Through code review it is obvious that this is a pickle deserialization challenge, however there is a single requirements to get a working exploit. The pickled payload must be maximum 23 bytes.
+The first step is to inspect the code of the challenge using the `!code` command. Through code review it is obvious that this is a pickle deserialization challenge, however there is a single requirement to get a working exploit. The pickled payload must be at maximum 23 bytes.
 
 This is a classic golf challenge with the aim of making the pickled payload as compact as possible. 
 
@@ -33,5 +33,5 @@ golf_payload = \
 print(base64.b64encode(golf_payload).decode("utf-8"))
 ```
 
-Note that you need to use `ls` initially, to realise that the flag is in the root dir.
+Note that you need to use `ls` initially, to observe that the flag is in the root dir.
 </details>

@@ -15,7 +15,15 @@ For a more detailed description of the folder structure for challenges, please s
 
 Port 8000 will be used for serving static artifacts
 
-## Challenges
+### Challenges
+| Name                                                | Author | Ports |
+| --------------------------------------------------- | ------ | ----- |
+| [Cathode Ray Thruster](crypto/cathode-ray-thruster) | rok0s  | -     |
+### Misc
+
+| Name                            | Author | Ports |
+| ------------------------------- | ------ | ----- |
+| [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
 
 ### Misc
 
