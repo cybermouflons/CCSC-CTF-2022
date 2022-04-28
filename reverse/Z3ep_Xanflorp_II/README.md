@@ -1,5 +1,5 @@
-# Rickompression
-[This challenge will be available only when "Z3ep Xanflorp II" is solved]
+# Z3ep Xanflorp II
+[This challenge will be available only when "Z3ep Xanflorp I" is solved]
 
 **Category**: Reverse
 
