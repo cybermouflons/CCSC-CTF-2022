@@ -1,0 +1,292 @@
+[*] Opcode 1: 128 11 3 	:O=4 P=0 E=0 X=11 L=3 	: ju: 0,30
+[*] Opcode 1: 128 25 3 	:O=4 P=0 E=0 X=25 L=3 	:or : 0,42
+[*] Opcode 1: 128 32 3 	:O=4 P=0 E=0 X=32 L=3 	: a : 0,67
+[*] Opcode 1: 128 75 3 	:O=4 P=0 E=0 X=75 L=3 	:ot : 0,80
+[*] Opcode 1: 128 3 3 	:O=4 P=0 E=0 X=3 L=3 	:is : 0,97
+[*] Opcode 1: 128 94 3 	:O=4 P=0 E=0 X=94 L=3 	:ing: 0,106
+[*] Opcode 1: 128 80 3 	:O=4 P=0 E=0 X=80 L=3 	:t a: 0,114
+[*] Opcode 1: 128 67 5 	:O=4 P=0 E=0 X=67 L=5 	: you : 0,119
+[*] Opcode 1: 128 116 8 	:O=4 P=0 E=0 X=116 L=8 	:looking : 0,124
+[*] Opcode 1: 128 105 3 	:O=4 P=0 E=0 X=105 L=3 	:t, : 0,133
+[*] Opcode 3: 192 91  	:O=6 0 E=0 X=91 	: a : 0,158
+[*] Opcode 1: 128 150 3 	:O=4 P=0 E=0 X=150 L=3 	:ng : 0,163
+[*] Opcode 1: 128 19 4 	:O=4 P=0 E=0 X=19 L=4 	:d a : 0,176
+[*] Opcode 1: 128 37 6 	:O=4 P=0 E=0 X=37 L=6 	:, and : 0,209
+[*] Opcode 1: 128 130 4 	:O=4 P=0 E=0 X=130 L=4 	:t th: 0,220
+[*] Opcode 1: 128 200 3 	:O=4 P=0 E=0 X=200 L=3 	:ent: 0,226
+[*] Opcode 1: 128 113 3 	:O=4 P=0 E=0 X=113 L=3 	:re : 0,230
+[*] Opcode 1: 128 189 4 	:O=4 P=0 E=0 X=189 L=4 	: you: 0,241
+[*] Opcode 1: 128 219 3 	:O=4 P=0 E=0 X=219 L=3 	:st : 0,252
+[*] Opcode 1: 128 61 4 	:O=4 P=0 E=0 X=61 L=4 	:m co: 0,261
+[*] Opcode 1: 128 112 3 	:O=4 P=0 E=0 X=112 L=3 	:ed : 0,268
+[*] Opcode 1: 128 97 3 	:O=4 P=0 E=0 X=97 L=3 	:nd : 0,272
+[*] Opcode 1: 128 52 3 	:O=4 P=0 E=0 X=52 L=3 	: en: 0,277
+[*] Opcode 3: 192 22  	:O=6 0 E=0 X=22 	:ed : 0,290
+[*] Opcode 1: 128 26 4 	:O=4 P=0 E=0 X=26 L=4 	:red : 0,293
+[*] Opcode 1: 128 93 17 	:O=4 P=0 E=0 X=93 L=17 	:, and I want the : 0,302
+[*] Opcode 1: 128 64 3 	:O=4 P=0 E=0 X=64 L=3 	:sta: 0,319
+[*] Opcode 1: 128 183 3 	:O=4 P=0 E=0 X=183 L=3 	:cke: 0,328
+[*] Opcode 1: 128 51 7 	:O=4 P=0 E=0 X=51 L=7 	:d with : 0,331
+[*] Opcode 1: 128 74 3 	:O=4 P=0 E=0 X=74 L=3 	:ver: 0,339
+[*] Opcode 1: 129 39 3 	:O=4 P=0 E=1 X=39 L=3 	:an : 0,345
+[*] Opcode 1: 128 237 4 	:O=4 P=0 E=0 X=237 L=4 	:hat : 0,349
+[*] Opcode 1: 128 219 3 	:O=4 P=0 E=0 X=219 L=3 	:mot: 0,355
+[*] Opcode 1: 128 181 3 	:O=4 P=0 E=0 X=181 L=3 	:les: 0,368
+[*] Opcode 1: 129 33 3 	:O=4 P=0 E=1 X=33 L=3 	: fa: 0,374
+[*] Opcode 1: 128 239 4 	:O=4 P=0 E=0 X=239 L=4 	:ther: 0,377
+[*] Opcode 2: 160 0 31 	:O=5 P=0 E=0 X=0 L=31 	:I'm not looking for judgement, : 1,0
+[*] Opcode 2: 160 93 4 	:O=5 P=0 E=0 X=93 L=4 	:his : 1,32
+[*] Opcode 2: 161 87 3 	:O=5 P=0 E=1 X=87 L=3 	: ma: 1,46
+[*] Opcode 2: 160 25 3 	:O=5 P=0 E=0 X=25 L=3 	:men: 1,54
+[*] Opcode 2: 160 216 6 	:O=5 P=0 E=0 X=216 L=6 	: want : 1,57
+[*] Opcode 2: 160 207 4 	:O=5 P=0 E=0 X=207 L=4 	:me, : 1,63
+[*] Opcode 4: 224 114 	:O=7 P=0 E=0 X=114 	:t a: 1,72
+[*] Opcode 1: 128 32 6 	:O=4 P=0 E=0 X=32 L=6 	: made : 1,78
+[*] Opcode 4: 224 226 	:O=7 P=0 E=0 X=226 	:ent: 1,92
+[*] Opcode 2: 160 218 3 	:O=5 P=0 E=0 X=218 L=3 	:ant: 1,100
+[*] Opcode 2: 161 4 4 	:O=5 P=0 E=1 X=4 L=4 	:um c: 1,103
+[*] Opcode 2: 161 45 3 	:O=5 P=0 E=1 X=45 L=3 	:s, : 1,123
+[*] Opcode 2: 160 54 3 	:O=5 P=0 E=0 X=54 L=3 	:ou : 1,134
+[*] Opcode 2: 160 30 7 	:O=5 P=0 E=0 X=30 L=7 	: just a: 1,142
+[*] Opcode 4: 224 176 	:O=7 P=0 E=0 X=176 	:d a : 1,150
+[*] Opcode 1: 128 109 3 	:O=4 P=0 E=0 X=109 L=3 	: wo: 1,160
+[*] Opcode 2: 161 19 3 	:O=5 P=0 E=1 X=19 L=3 	:to : 1,166
+[*] Opcode 1: 128 14 6 	:O=4 P=0 E=0 X=14 L=6 	: word : 1,174
+[*] Opcode 2: 160 174 4 	:O=5 P=0 E=0 X=174 L=4 	:and : 1,180
+[*] Opcode 1: 128 102 3 	:O=4 P=0 E=0 X=102 L=3 	:e i: 1,187
+[*] Opcode 1: 128 146 3 	:O=4 P=0 E=0 X=146 L=3 	:ome: 1,199
+[*] Opcode 2: 160 92 3 	:O=5 P=0 E=0 X=92 L=3 	:thi: 1,202
+[*] Opcode 2: 160 7 5 	:O=5 P=0 E=0 X=7 L=5 	: look: 1,215
+[*] Opcode 2: 160 196 3 	:O=5 P=0 E=0 X=196 L=3 	:e s: 1,225
+[*] Opcode 1: 128 29 8 	:O=4 P=0 E=0 X=29 L=8 	:omething: 1,228
+[*] Opcode 4: 224 163 	:O=7 P=0 E=0 X=163 	:ng : 1,242
+[*] Opcode 2: 161 26 5 	:O=5 P=0 E=1 X=26 L=5 	:with : 1,245
+[*] Opcode 2: 160 138 3 	:O=5 P=0 E=0 X=138 L=3 	:the: 1,250
+[*] Opcode 2: 160 180 3 	:O=5 P=0 E=0 X=180 L=3 	:cro: 1,256
+[*] Opcode 4: 225 83 	:O=7 P=0 E=1 X=83 	:ver: 1,259
+[*] Opcode 1: 128 230 3 	:O=4 P=0 E=0 X=230 L=3 	:ter: 1,268
+[*] Opcode 1: 128 141 3 	:O=4 P=0 E=0 X=141 L=3 	:y. : 1,271
+[*] Opcode 4: 224 230 	:O=7 P=0 E=0 X=230 	:re : 1,277
+[*] Opcode 1: 128 244 5 	:O=4 P=0 E=0 X=244 L=5 	:have : 1,286
+[*] Opcode 3: 192 125  	:O=6 0 E=0 X=125 	:to : 1,291
+[*] Opcode 2: 160 168 3 	:O=5 P=0 E=0 X=168 L=3 	:ide: 1,300
+[*] Opcode 4: 225 89 	:O=7 P=0 E=1 X=89 	:an : 1,307
+[*] Opcode 3: 192 191  	:O=6 0 E=0 X=191 	:s, : 1,314
+[*] Opcode 2: 161 1 3 	:O=5 P=0 E=1 X=1 L=3 	:adi: 1,318
+[*] Opcode 2: 160 39 3 	:O=5 P=0 E=0 X=39 L=3 	:es : 1,321
+[*] Opcode 3: 192 144  	:O=6 0 E=0 X=144 	:and : 1,324
+[*] Opcode 3: 192 237  	:O=6 0 E=0 X=237 	:ent: 1,329
+[*] Opcode 2: 160 24 4 	:O=5 P=0 E=0 X=24 L=4 	:emen: 1,333
+[*] Opcode 1: 128 34 3 	:O=4 P=0 E=0 X=34 L=3 	:. A: 1,337
+[*] Opcode 1: 129 47 4 	:O=4 P=0 E=1 X=47 L=4 	:fter: 1,340
+[*] Opcode 3: 193 57  	:O=6 0 E=1 X=57 	:his : 1,345
+[*] Opcode 3: 192 23  	:O=6 0 E=0 X=23 	:ent: 1,352
+[*] Opcode 2: 161 28 3 	:O=5 P=0 E=1 X=28 L=3 	:th : 1,368
+[*] Opcode 4: 224 158 	:O=7 P=0 E=0 X=158 	: a : 1,373
+[*] Opcode 1: 128 66 3 	:O=4 P=0 E=0 X=66 L=3 	:ail: 1,377
+[*] Opcode 2: 160 157 3 	:O=5 P=0 E=0 X=157 L=3 	:d a: 1,383
+[*] Opcode 3: 192 88  	:O=6 0 E=0 X=88 	:ide: 1,388
+[*] Opcode 2: 160 27 4 	:O=5 P=0 E=0 X=27 L=4 	:nt, : 1,391
+[*] Opcode 4: 225 34 	:O=7 P=0 E=1 X=34 	:ed : 1,402
+[*] Opcode 1: 128 155 4 	:O=4 P=0 E=0 X=155 L=4 	:the : 1,405
+[*] Opcode 2: 160 140 3 	:O=5 P=0 E=0 X=140 L=3 	:er : 1,412
+[*] Opcode 3: 192 124  	:O=6 0 E=0 X=124 	:to : 1,415
+[*] Opcode 2: 160 203 3 	:O=5 P=0 E=0 X=203 L=3 	:ost: 1,427
+[*] Opcode 1: 128 73 4 	:O=4 P=0 E=0 X=73 L=4 	: tra: 1,430
+[*] Opcode 1: 128 137 3 	:O=4 P=0 E=0 X=137 L=3 	:ins: 1,434
+[*] Opcode 1: 128 205 3 	:O=4 P=0 E=0 X=205 L=3 	:'s : 1,441
+[*] Opcode 2: 160 4 4 	:O=5 P=0 E=0 X=4 L=4 	:not : 1,444
+[*] Opcode 1: 128 187 3 	:O=4 P=0 E=0 X=187 L=3 	: ba: 1,451
+[*] Opcode 1: 129 34 3 	:O=4 P=0 E=1 X=34 L=3 	:d t: 1,454
+[*] Opcode 1: 128 248 3 	:O=4 P=0 E=0 X=248 L=3 	:h, : 1,461
+[*] Opcode 3: 192 214  	:O=6 0 E=0 X=214 	:the: 1,464
+[*] Opcode 1: 128 58 3 	:O=4 P=0 E=0 X=58 L=3 	:wer: 1,469
+[*] Opcode 3: 192 247  	:O=6 0 E=0 X=247 	:e s: 1,472
+[*] Opcode 1: 128 126 4 	:O=4 P=0 E=0 X=126 L=4 	:pare: 1,475
+[*] Opcode 1: 128 195 4 	:O=4 P=0 E=0 X=195 L=4 	: hav: 1,480
+[*] Opcode 2: 160 12 4 	:O=5 P=0 E=0 X=12 L=4 	:ing : 1,484
+[*] Opcode 1: 128 73 4 	:O=4 P=0 E=0 X=73 L=4 	:to s: 1,488
+[*] Opcode 2: 160 91 3 	:O=5 P=0 E=0 X=91 L=3 	: th: 1,494
+[*] Opcode 1: 129 53 3 	:O=4 P=0 E=1 X=53 L=3 	: so: 1,506
+[*] Opcode 1: 128 42 3 	:O=4 P=0 E=0 X=42 L=3 	: we: 1,510
+[*] Opcode 1: 129 85 3 	:O=4 P=0 E=1 X=85 L=3 	:ar : 1,513
+[*] Opcode 2: 160 93 3 	:O=5 P=0 E=0 X=93 L=3 	:his: 1,519
+[*] Opcode 1: 128 88 3 	:O=4 P=0 E=0 X=88 L=3 	:. I: 1,525
+[*] Opcode 1: 129 134 4 	:O=4 P=0 E=1 X=134 L=4 	:n't : 1,529
+[*] Opcode 1: 129 206 3 	:O=4 P=0 E=1 X=206 L=3 	:it : 1,533
+[*] Opcode 1: 129 162 5 	:O=4 P=0 E=1 X=162 L=5 	:Morty: 1,544
+[*] Opcode 1: 128 214 3 	:O=4 P=0 E=0 X=214 L=3 	: hi: 1,558
+[*] Opcode 2: 164 97 31 	:O=5 P=1 E=0 X=97 L=31 	:'Quantum carburetor'? Jesus, Mo: 2,0
+[*] Opcode 2: 164 128 31 	:O=5 P=1 E=0 X=128 L=31 	:rty. You can't just add a Sci-F: 2,31
+[*] Opcode 2: 164 159 31 	:O=5 P=1 E=0 X=159 L=31 	:i word to a car word and hope i: 2,62
+[*] Opcode 2: 164 190 31 	:O=5 P=1 E=0 X=190 L=31 	:t means something... Huh, looks: 2,93
+[*] Opcode 2: 164 221 31 	:O=5 P=1 E=0 X=221 L=31 	: like something's wrong with th: 2,124
+[*] Opcode 2: 164 45 3 	:O=5 P=1 E=0 X=45 L=3 	:e m: 2,155
+[*] Opcode 2: 164 255 31 	:O=5 P=1 E=0 X=255 L=31 	:icroverse battery. We're gonna : 2,158
+[*] Opcode 2: 165 30 19 	:O=5 P=1 E=1 X=30 L=19 	:have to go inside. : 2,189
+[*] Opcode 4: 228 199 	:O=7 P=1 E=0 X=199 	:ome: 2,218
+[*] Opcode 2: 160 87 5 	:O=5 P=0 E=0 X=87 L=5 	:ault : 2,223
+[*] Opcode 4: 229 21 	:O=7 P=1 E=1 X=21 	:re : 2,235
+[*] Opcode 4: 229 208 	:O=7 P=1 E=1 X=208 	:the: 2,238
+[*] Opcode 2: 165 6 3 	:O=5 P=1 E=1 X=6 L=3 	:se : 2,241
+[*] Opcode 2: 164 196 3 	:O=5 P=1 E=0 X=196 L=3 	:s s: 2,248
+[*] Opcode 2: 165 146 4 	:O=5 P=1 E=1 X=146 L=4 	:ed t: 2,256
+[*] Opcode 2: 160 216 3 	:O=5 P=0 E=0 X=216 L=3 	: wa: 2,261
+[*] Opcode 2: 164 224 3 	:O=5 P=1 E=0 X=224 L=3 	:ke : 2,264
+[*] Opcode 2: 164 84 3 	:O=5 P=1 E=0 X=84 L=3 	:me : 2,267
+[*] Opcode 2: 160 41 4 	:O=5 P=0 E=0 X=41 L=4 	: or : 2,272
+[*] Opcode 2: 164 198 9 	:O=5 P=1 E=0 X=198 L=9 	:something: 2,276
+[*] Opcode 2: 160 139 3 	:O=5 P=0 E=0 X=139 L=3 	:her: 2,288
+[*] Opcode 4: 229 185 	:O=7 P=1 E=1 X=185 	:'s : 2,292
+[*] Opcode 2: 160 173 5 	:O=5 P=0 E=0 X=173 L=5 	: and : 2,299
+[*] Opcode 2: 164 195 3 	:O=5 P=1 E=0 X=195 L=3 	:ns : 2,306
+[*] Opcode 2: 161 19 4 	:O=5 P=0 E=1 X=19 L=4 	:to e: 2,309
+[*] Opcode 2: 161 83 5 	:O=5 P=0 E=1 X=83 L=5 	:very : 2,313
+[*] Opcode 4: 229 12 	:O=7 P=1 E=1 X=12 	:ter: 2,320
+[*] Opcode 2: 160 64 4 	:O=5 P=0 E=0 X=64 L=4 	:ate : 2,324
+[*] Opcode 2: 165 144 3 	:O=5 P=1 E=1 X=144 L=3 	:ine: 2,333
+[*] Opcode 4: 225 118 	:O=7 P=0 E=1 X=118 	: fa: 2,341
+[*] Opcode 1: 128 48 3 	:O=4 P=0 E=0 X=48 L=3 	:s a: 2,346
+[*] Opcode 2: 164 68 3 	:O=5 P=1 E=0 X=68 L=3 	:ut : 2,351
+[*] Opcode 2: 160 92 5 	:O=5 P=0 E=0 X=92 L=5 	:this : 2,354
+[*] Opcode 2: 165 182 6 	:O=5 P=1 E=1 X=182 L=6 	: It's : 2,364
+[*] Opcode 4: 224 80 	:O=7 P=0 E=0 X=80 	:ot : 2,371
+[*] Opcode 4: 228 100 	:O=7 P=1 E=0 X=100 	:ant: 2,376
+[*] Opcode 2: 165 111 3 	:O=5 P=1 E=1 X=111 L=3 	:ath: 2,386
+[*] Opcode 2: 165 106 3 	:O=5 P=1 E=1 X=106 L=3 	:ic : 2,389
+[*] Opcode 2: 160 168 4 	:O=5 P=0 E=0 X=168 L=4 	:ider: 2,394
+[*] Opcode 4: 229 58 	:O=7 P=1 E=1 X=58 	:s, : 2,398
+[*] Opcode 2: 161 45 7 	:O=5 P=0 E=1 X=45 L=7 	:s, and : 2,408
+[*] Opcode 4: 229 149 	:O=7 P=1 E=1 X=149 	:the : 2,415
+[*] Opcode 2: 160 251 4 	:O=5 P=0 E=0 X=251 L=4 	:est : 2,420
+[*] Opcode 2: 160 199 3 	:O=5 P=0 E=0 X=199 L=3 	:am : 2,431
+[*] Opcode 2: 165 115 3 	:O=5 P=1 E=1 X=115 L=3 	:in : 2,434
+[*] Opcode 2: 164 250 5 	:O=5 P=1 E=0 X=250 L=5 	:the m: 2,437
+[*] Opcode 2: 160 88 3 	:O=5 P=0 E=0 X=88 L=3 	:ult: 2,442
+[*] Opcode 2: 165 3 5 	:O=5 P=1 E=1 X=3 L=5 	:verse: 2,446
+[*] Opcode 4: 228 0 	:O=7 P=1 E=0 X=0 	:I'm not looking for judgement, : 3,0
+[*] Opcode 2: 160 33 16 	:O=5 P=0 E=0 X=33 L=16 	:st a yes or no. : 3,33
+[*] Opcode 2: 160 30 6 	:O=5 P=0 E=0 X=30 L=6 	: just : 3,50
+[*] Opcode 2: 168 245 3 	:O=5 P=2 E=0 X=245 L=3 	:ill: 3,57
+[*] Opcode 4: 229 146 	:O=7 P=1 E=1 X=146 	:ed : 3,60
+[*] Opcode 2: 161 116 5 	:O=5 P=0 E=1 X=116 L=5 	:my fa: 3,63
+[*] Opcode 2: 160 61 3 	:O=5 P=0 E=0 X=61 L=3 	:mil: 3,68
+[*] Opcode 2: 166 38 3 	:O=5 P=1 E=2 X=38 L=3 	: I : 3,73
+[*] Opcode 2: 164 170 4 	:O=5 P=1 E=0 X=170 L=4 	: car: 3,81
+[*] Opcode 2: 164 50 3 	:O=5 P=1 E=0 X=50 L=3 	:e w: 3,85
+[*] Opcode 2: 165 238 4 	:O=5 P=1 E=1 X=238 L=4 	: the: 3,90
+[*] Opcode 2: 165 211 6 	:O=5 P=1 E=1 X=211 L=6 	:y were: 3,94
+[*] Opcode 2: 166 5 3 	:O=5 P=1 E=2 X=5 L=3 	: wh: 3,106
+[*] Opcode 2: 160 113 3 	:O=5 P=0 E=0 X=113 L=3 	:at : 3,109
+[*] Opcode 4: 233 159 	:O=7 P=2 E=1 X=159 	:the : 3,112
+[*] Opcode 2: 160 143 4 	:O=5 P=0 E=0 X=143 L=4 	:fuck: 3,116
+[*] Opcode 2: 166 31 8 	:O=5 P=1 E=2 X=31 L=8 	: Morty? : 3,121
+[*] Opcode 2: 169 31 3 	:O=5 P=2 E=1 X=31 L=3 	:The: 3,129
+[*] Opcode 2: 165 174 6 	:O=5 P=1 E=1 X=174 L=6 	: train: 3,132
+[*] Opcode 4: 224 119 	:O=7 P=0 E=0 X=119 	: you : 3,138
+[*] Opcode 2: 169 114 4 	:O=5 P=2 E=1 X=114 L=4 	:got : 3,143
+[*] Opcode 4: 233 11 	:O=7 P=2 E=1 X=11 	:me : 3,147
+[*] Opcode 1: 128 119 5 	:O=4 P=0 E=0 X=119 L=5 	:just : 3,150
+[*] Opcode 2: 169 125 3 	:O=5 P=2 E=1 X=125 L=3 	:tel: 3,161
+[*] Opcode 2: 165 108 3 	:O=5 P=1 E=1 X=108 L=3 	: de: 3,165
+[*] Opcode 2: 165 120 4 	:O=5 P=1 E=1 X=120 L=4 	:rail: 3,168
+[*] Opcode 3: 192 112  	:O=6 0 E=0 X=112 	:ed : 3,172
+[*] Opcode 2: 169 30 9 	:O=5 P=2 E=1 X=30 L=9 	: There's : 3,182
+[*] Opcode 2: 160 8 3 	:O=5 P=0 E=0 X=8 L=3 	:loo: 3,192
+[*] Opcode 4: 229 127 	:O=7 P=1 E=1 X=127 	:d a: 3,195
+[*] Opcode 2: 165 193 3 	:O=5 P=1 E=1 X=193 L=3 	:ll : 3,198
+[*] Opcode 4: 229 3 	:O=7 P=1 E=1 X=3 	:ver: 3,202
+[*] Opcode 3: 192 115  	:O=6 0 E=0 X=115 	: the: 3,205
+[*] Opcode 2: 161 25 3 	:O=5 P=0 E=1 X=25 L=3 	: wi: 3,209
+[*] Opcode 2: 164 131 3 	:O=5 P=1 E=0 X=131 L=3 	:. Y: 3,217
+[*] Opcode 2: 165 205 5 	:O=5 P=1 E=1 X=205 L=5 	:h, th: 3,222
+[*] Opcode 2: 168 254 3 	:O=5 P=2 E=0 X=254 L=3 	:ose: 3,227
+[*] Opcode 2: 169 4 3 	:O=5 P=2 E=1 X=4 L=3 	:o w: 3,233
+[*] Opcode 2: 161 10 3 	:O=5 P=0 E=1 X=10 L=3 	:ere: 3,236
+[*] Opcode 2: 160 142 5 	:O=5 P=0 E=0 X=142 L=5 	: fuck: 3,239
+[*] Opcode 2: 160 106 5 	:O=5 P=0 E=0 X=106 L=5 	:ing. : 3,244
+[*] Opcode 2: 165 183 5 	:O=5 P=1 E=1 X=183 L=5 	:It's : 3,249
+[*] Opcode 2: 165 192 3 	:O=5 P=1 E=1 X=192 L=3 	:all: 3,255
+[*] Opcode 3: 192 86  	:O=6 0 E=0 X=86 	:ed : 3,258
+[*] Opcode 2: 164 171 3 	:O=5 P=1 E=0 X=171 L=3 	:car: 3,261
+[*] Opcode 2: 164 186 3 	:O=5 P=1 E=0 X=186 L=3 	:pe : 3,264
+[*] Opcode 2: 166 31 6 	:O=5 P=1 E=2 X=31 L=6 	: Morty: 3,271
+[*] Opcode 2: 160 9 3 	:O=5 P=0 E=0 X=9 L=3 	:ook: 3,280
+[*] Opcode 2: 164 70 4 	:O=5 P=1 E=0 X=70 L=4 	: it : 3,283
+[*] Opcode 4: 236 0 	:O=7 P=3 E=0 X=0 	:I'm not looking for judgement, : 4,0
+[*] Opcode 2: 160 3 5 	:O=5 P=0 E=0 X=3 L=5 	: not : 4,35
+[*] Opcode 4: 229 30 	:O=7 P=1 E=1 X=30 	:have : 4,40
+[*] Opcode 4: 225 37 	:O=7 P=0 E=1 X=37 	:red : 4,52
+[*] Opcode 2: 164 67 3 	:O=5 P=1 E=0 X=67 L=3 	:but: 4,56
+[*] Opcode 2: 160 195 3 	:O=5 P=0 E=0 X=195 L=3 	:le : 4,62
+[*] Opcode 2: 172 216 3 	:O=5 P=3 E=0 X=216 L=3 	:s. : 4,69
+[*] Opcode 2: 168 234 4 	:O=5 P=2 E=0 X=234 L=4 	:Are : 4,72
+[*] Opcode 2: 160 53 4 	:O=5 P=0 E=0 X=53 L=4 	:you : 4,76
+[*] Opcode 2: 161 117 3 	:O=5 P=0 E=1 X=117 L=3 	:y f: 4,85
+[*] Opcode 4: 224 42 	:O=7 P=0 E=0 X=42 	:or : 4,88
+[*] Opcode 2: 160 101 3 	:O=5 P=0 E=0 X=101 L=3 	:app: 4,91
+[*] Opcode 4: 225 112 	:O=7 P=0 E=1 X=112 	:les: 4,94
+[*] Opcode 2: 160 249 3 	:O=5 P=0 E=0 X=249 L=3 	:rge: 4,131
+[*] Opcode 2: 169 72 4 	:O=5 P=2 E=1 X=72 L=4 	:time: 4,135
+[*] Opcode 2: 168 232 3 	:O=5 P=2 E=0 X=232 L=3 	:! A: 4,139
+[*] Opcode 2: 165 166 3 	:O=5 P=1 E=1 X=166 L=3 	:on : 4,153
+[*] Opcode 4: 229 159 	:O=7 P=1 E=1 X=159 	:to : 4,160
+[*] Opcode 2: 169 49 3 	:O=5 P=2 E=1 X=49 L=3 	:ons: 4,164
+[*] Opcode 4: 233 64 	:O=7 P=2 E=1 X=64 	:ter: 4,167
+[*] Opcode 2: 164 137 3 	:O=5 P=1 E=0 X=137 L=3 	:can: 4,175
+[*] Opcode 2: 168 233 3 	:O=5 P=2 E=0 X=233 L=3 	: Ar: 4,178
+[*] Opcode 2: 160 181 3 	:O=5 P=0 E=0 X=181 L=3 	:rot: 4,187
+[*] Opcode 4: 233 32 	:O=7 P=2 E=1 X=32 	:her: 4,190
+[*] Opcode 2: 160 110 3 	:O=5 P=0 E=0 X=110 L=3 	: Wh: 4,194
+[*] Opcode 2: 168 233 5 	:O=5 P=2 E=0 X=233 L=5 	: Are : 4,198
+[*] Opcode 2: 172 32 4 	:O=5 P=3 E=0 X=32 L=4 	:ust : 4,204
+[*] Opcode 2: 160 247 3 	:O=5 P=0 E=0 X=247 L=3 	:lar: 4,212
+[*] Opcode 1: 128 30 10 	:O=4 P=0 E=0 X=30 L=10 	: Brothers : 4,215
+[*] Opcode 2: 160 105 4 	:O=5 P=0 E=0 X=105 L=4 	:ning: 4,228
+[*] Opcode 1: 128 86 3 	:O=4 P=0 E=0 X=86 L=3 	: In: 4,232
+[*] Opcode 4: 229 51 	:O=7 P=1 E=1 X=51 	:an : 4,239
+[*] Opcode 3: 192 85  	:O=6 0 E=0 X=85 	:ter: 4,252
+[*] Opcode 1: 128 12 3 	:O=4 P=0 E=0 X=12 L=3 	: An: 4,258
+[*] Opcode 1: 128 4 3 	:O=4 P=0 E=0 X=4 L=3 	:d A: 4,261
+[*] Opcode 4: 236 198 	:O=7 P=3 E=0 X=198 	:ll : 4,264
+[*] Opcode 2: 164 127 3 	:O=5 P=1 E=0 X=127 L=3 	:ort: 4,268
+[*] Opcode 2: 169 30 3 	:O=5 P=2 E=1 X=30 L=3 	: Th: 4,275
+[*] Opcode 4: 224 106 	:O=7 P=0 E=0 X=106 	:ing: 4,278
+[*] Opcode 2: 169 30 4 	:O=5 P=2 E=1 X=30 L=4 	: The: 4,283
+[*] Opcode 2: 166 31 3 	:O=5 P=1 E=2 X=31 L=3 	: Mo: 4,287
+[*] Opcode 2: 168 211 4 	:O=5 P=2 E=0 X=211 L=4 	:ohhh: 5,2
+[*] Opcode 2: 164 170 3 	:O=5 P=1 E=0 X=170 L=3 	: ca: 5,6
+[*] Opcode 2: 176 32 3 	:O=5 P=4 E=0 X=32 L=3 	: do: 5,10
+[*] Opcode 2: 164 209 3 	:O=5 P=1 E=0 X=209 L=3 	:. H: 5,13
+[*] Opcode 1: 128 13 4 	:O=4 P=0 E=0 X=13 L=4 	: god: 5,32
+[*] Opcode 2: 168 210 3 	:O=5 P=2 E=0 X=210 L=3 	: oh: 5,37
+[*] Opcode 4: 236 73 	:O=7 P=3 E=0 X=73 	: I : 5,41
+[*] Opcode 4: 236 147 	:O=7 P=3 E=0 X=147 	:me : 5,47
+[*] Opcode 2: 172 177 6 	:O=5 P=3 E=0 X=177 L=6 	:self. : 5,52
+[*] Opcode 4: 229 205 	:O=7 P=1 E=1 X=205 	:h, : 5,59
+[*] Opcode 2: 160 112 5 	:O=5 P=0 E=0 X=112 L=5 	:hat a: 5,63
+[*] Opcode 2: 165 101 5 	:O=5 P=1 E=1 X=101 L=5 	: trag: 5,68
+[*] Opcode 4: 229 15 	:O=7 P=1 E=1 X=15 	:y. : 5,75
+[*] Opcode 1: 128 20 5 	:O=4 P=0 E=0 X=20 L=5 	:Oh, w: 5,78
+[*] Opcode 2: 169 35 4 	:O=5 P=2 E=1 X=35 L=4 	:e's : 5,89
+[*] Opcode 2: 169 103 3 	:O=5 P=2 E=1 X=103 L=3 	:one: 5,94
+[*] Opcode 2: 160 3 3 	:O=5 P=0 E=0 X=3 L=3 	: no: 5,98
+[*] Opcode 4: 230 13 	:O=7 P=1 E=2 X=13 	:. I: 5,102
+[*] Opcode 2: 160 188 4 	:O=5 P=0 E=0 X=188 L=4 	:ess : 5,108
+[*] Opcode 2: 165 192 4 	:O=5 P=1 E=1 X=192 L=4 	:all : 5,112
+[*] Opcode 2: 169 89 4 	:O=5 P=2 E=1 X=89 L=4 	:ts a: 5,119
+[*] Opcode 4: 232 235 	:O=7 P=2 E=0 X=235 	:re : 5,123
+[*] Opcode 2: 161 112 4 	:O=5 P=0 E=1 X=112 L=4 	:les : 5,137
+[*] Opcode 2: 160 217 6 	:O=5 P=0 E=0 X=217 L=6 	:want t: 5,141
+[*] Opcode 2: 160 191 3 	:O=5 P=0 E=0 X=191 L=3 	: un: 5,151
+[*] Opcode 2: 160 169 3 	:O=5 P=0 E=0 X=169 L=3 	:der: 5,154
+[*] Opcode 1: 128 32 12 	:O=4 P=0 E=0 X=32 L=12 	:d. Snuffles : 5,161
+[*] Opcode 2: 160 154 5 	:O=5 P=0 E=0 X=154 L=5 	:need : 5,173
+[*] Opcode 4: 240 160 	:O=7 P=4 E=0 X=160 	:to : 5,178
+[*] Opcode 1: 128 32 14 	:O=4 P=0 E=0 X=32 L=14 	:be understood.: 5,181
+[*] Opcode 2: 164 31 4 	:O=5 P=1 E=0 X=31 L=4 	:This: 6,5
+[*] Opcode 2: 176 65 3 	:O=5 P=4 E=0 X=65 L=3 	:fla: 6,15
+[*] Opcode 2: 161 92 4 	:O=5 P=0 E=1 X=92 L=4 	:that: 6,20
+[*] Opcode 2: 160 154 4 	:O=5 P=0 E=0 X=154 L=4 	:need: 6,28
+[*] Opcode 2: 160 161 4 	:O=5 P=0 E=0 X=161 L=4 	:hang: 6,37
+[*] Opcode 2: 164 126 6 	:O=5 P=1 E=0 X=126 L=6 	:Morty.: 6,43

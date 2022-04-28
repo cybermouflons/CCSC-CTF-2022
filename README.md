@@ -24,6 +24,7 @@ Port 8000 will be used for serving static artifacts
 | [Cathode Ray Thruster](crypto/cathode-ray-thruster)              | rok0s  | 9000  |
 | [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s  | -     |
 | [Get Schwifty](crypto/get_schwifty)                              | R3D    | 3137  |
+| [Rick Derivation Functions](crypto/Rick_Derivation_Functions)    | tratrafe2 | -    |
 
 ### Forensics
 | Name                                | Author      | Ports |
@@ -31,6 +32,8 @@ Port 8000 will be used for serving static artifacts
 | [FakeDoor](forensics/FakeDoor/)     | icyDux      | -     |
 | [Ricklantis](forensics/ricklantis/) | anderson101 | -     |
 | [The Citadel of Ricks](forensics/the_citadel_of_ricks)|R3D|-|
+| [SumoRick I](forensics/SumoRick_II) |tratrafe2|-|
+| [SumoRick II](forensics/SumoRick_II)|tratrafe2|-|
 ### Misc
 
 | Name                            | Author | Ports |
@@ -38,13 +41,19 @@ Port 8000 will be used for serving static artifacts
 | [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
 | [CUBIK RICK](misc/CUBIK_RICK)   | R3D    | 6910  |
 | [Pokemon Adventure](misc/Pokemon-Adventure)   | s1kk1s    | -  |
+### Reverse
+
+| Name                                      | Author | Ports |
+| ----------------------------------------- | ------ | ----- |
+| [Rickompression](misc/Rickompression)     | tratrafe2 / Icydux | -  |
+| [Z3ep Xanflorp I](misc/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | TBA|
+| [Z3ep Xanflorp II](misc/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | TBA|
 ### Stego
 
 | Name                               | Author | Ports |
 | ---------------------------------- | ------ | ----- |
 | [UFO](stego/ufo)                   | koks   | -     |
 | [Meeting Area](stego/meeting-area) | koks   | -     |
-
 ### Web
 
 | Name                                     | Author | Ports |
