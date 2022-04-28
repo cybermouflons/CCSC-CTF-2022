@@ -16,9 +16,10 @@ For a more detailed description of the folder structure for challenges, please s
 Port 8000 will be used for serving static artifacts
 
 ### Challenges
-| Name                                                | Author | Ports |
-| --------------------------------------------------- | ------ | ----- |
-| [Cathode Ray Thruster](crypto/cathode-ray-thruster) | rok0s  | -     |
+| Name                                                             | Author | Ports |
+| ---------------------------------------------------------------- | ------ | ----- |
+| [Cathode Ray Thruster](crypto/cathode-ray-thruster)              | rok0s  | 9000  |
+| [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s  | -     |
 ### Misc
 
 | Name                            | Author | Ports |
