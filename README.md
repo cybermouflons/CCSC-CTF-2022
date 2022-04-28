@@ -45,9 +45,9 @@ Port 8000 will be used for serving static artifacts
 
 | Name                                      | Author | Ports |
 | ----------------------------------------- | ------ | ----- |
-| [Rickompression](misc/Rickompression)     | tratrafe2 / Icydux | -  |
-| [Z3ep Xanflorp I](misc/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | TBA|
-| [Z3ep Xanflorp II](misc/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | TBA|
+| [Rickompression](reverse/Rickompression)     | tratrafe2 / Icydux | -  |
+| [Z3ep Xanflorp I](reverse/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | TBA|
+| [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | TBA|
 ### Stego
 
 | Name                               | Author | Ports |
