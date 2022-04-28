@@ -7,10 +7,6 @@
 ## Description
 Morty was using the portal gun to fix the mess Rick created through his adventures. When Rick find out he got so mad that he is trying to hack on Morty's phone through his todo application! Can you help him retrive hte flag?
 
-## Points
-
-N/A
-
 <details>
 <summary>Reveal Spoiler</summary>
 
