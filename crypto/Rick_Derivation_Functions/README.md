@@ -1,4 +1,4 @@
-# Rickompression
+# Rick Derivation Functions
 **Category**: Crypto
 
 **Author**: tratrafe2

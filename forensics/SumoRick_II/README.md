@@ -1,4 +1,4 @@
-# Rickompression
+# SumoRick II
 [This challenge will be available only when "SumoRick I" is solved]
 
 **Category**: Forensics, Programming

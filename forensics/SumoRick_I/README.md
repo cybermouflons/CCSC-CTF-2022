@@ -1,4 +1,4 @@
-# Rickompression
+# SumoRick I
 **Category**: Forensics, Programming
 
 **Author**: tratrafe2
