@@ -1,0 +1,55 @@
+.main {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.buttonImage {
+    border-radius: 50%
+}
+
+#text {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    -webkit-animation: shake 1s;
+}
+
+#author {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 12px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px 10px #888888;
+}
+
+@-webkit-keyframes shake {
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translate(5px, 0px) rotate(5deg)
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate(0px, -5px) rotate(-5deg)
+    }
+}
+
+.portal {
+
+}

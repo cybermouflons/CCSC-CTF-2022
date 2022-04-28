@@ -1,0 +1,1 @@
+docker-compose -f setup/docker-compose.yml up --build --force-recreate -d

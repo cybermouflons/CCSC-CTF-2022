@@ -1,0 +1,29 @@
+version: "3.5"
+services:
+
+  portalsvc:
+    build: ./portal-svc
+    restart: always
+
+  validationsvc:
+    build: ./validation-svc
+    restart: always
+    ports:
+      - 8082:3000
+    links:
+      - portalsvc
+
+  portaldb:
+    image: mongo:latest
+    restart: always
+    volumes:
+      - ./.mongodb/:/data/db
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_DATA_DIR=/data/db
+
+  mongo-seed:
+    build: ./mongo-seed
+    links:
+      - portaldb
