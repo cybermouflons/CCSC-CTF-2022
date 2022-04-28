@@ -30,6 +30,7 @@ Port 8000 will be used for serving static artifacts
 | ----------------------------------- | ----------- | ----- |
 | [FakeDoor](forensics/FakeDoor/)     | icyDux      | -     |
 | [Ricklantis](forensics/ricklantis/) | anderson101 | -     |
+| [The Citadel of Ricks](forensics/the_citadel_of_ricks)|R3D|-|
 ### Misc
 
 | Name                            | Author | Ports |
@@ -51,6 +52,7 @@ Port 8000 will be used for serving static artifacts
 | [Planet-TC39](web/planet-tc39)           | koks   | 3000  |
 | [Morty's Cleanup List](web/morty's-list) | s1kk1s | 5000  |
 | [Portal Gun](web/portal-gun/)            | rok0s  | 8082  |
+| [Unity](web/unity)                       | styx00 | 5001  |
 ### Pwn
 
 | Name                                               | Author  | Ports |

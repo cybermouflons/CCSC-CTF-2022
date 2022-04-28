@@ -1,0 +1,3 @@
+flask
+setuptools
+python-docx==0.8.5

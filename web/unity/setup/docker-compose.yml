@@ -1,0 +1,14 @@
+version: '3'
+services:
+  webserver:
+    build: webserver
+    ports:
+      - "5001:5000"
+    networks:
+      default:
+        ipv4_address: 172.16.150.10
+    restart: always
+networks:
+  default:
+    external:
+      name: styx00-network
