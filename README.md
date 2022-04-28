@@ -32,8 +32,8 @@ Port 8000 will be used for serving static artifacts
 | [FakeDoor](forensics/FakeDoor/)     | icyDux      | -     |
 | [Ricklantis](forensics/ricklantis/) | anderson101 | -     |
 | [The Citadel of Ricks](forensics/the_citadel_of_ricks)|R3D|-|
-| [SumoRick I](forensics/SumoRick_II) |tratrafe2|-|
-| [SumoRick II](forensics/SumoRick_II)|tratrafe2|-|
+| [SumoRick I](forensics/SumoRick_I)  |tratrafe2    |-      |
+| [SumoRick II](forensics/SumoRick_II)|tratrafe2    |-      |
 ### Misc
 
 | Name                            | Author | Ports |
