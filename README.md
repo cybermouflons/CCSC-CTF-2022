@@ -20,12 +20,12 @@ Port 8000 will be used for serving static artifacts
 | ---------------------------------------------------------------- | ------ | ----- |
 | [Cathode Ray Thruster](crypto/cathode-ray-thruster)              | rok0s  | 9000  |
 | [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s  | -     |
-### Misc
+### Forensics
 
-| Name                            | Author | Ports |
-| ------------------------------- | ------ | ----- |
-| [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
-
+| Name                                | Author      | Ports |
+| ----------------------------------- | ----------- | ----- |
+| [FakeDoor](forensics/FakeDoor/)     | icyDux      | -     |
+| [Ricklantis](forensics/ricklantis/) | anderson101 | -     |
 ### Misc
 
 | Name                            | Author | Ports |
