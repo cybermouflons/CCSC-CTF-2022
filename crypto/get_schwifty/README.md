@@ -6,7 +6,7 @@
 ## Description
 A massive alien head appears over the Earth, interfering with Earth's gravity and spawning several global disasters in the process. When the head exclaims, "SHOW ME WHAT YOU GOT. I WANT TO SEE WHAT YOU GOT", Rick and Morty compose the greatest song of all time, called "Get Schwifty"! Minutes before their live performance, Morty accidentally encrypted some of the lyrics. 
 
-Fortunately, you know Morty is stupid and he probably used something really WEAK. 
+Fortunately, you know Morty is stupid and probably used something really WEAK. 
 ## Points
 N/A
 
