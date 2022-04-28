@@ -1,4 +1,4 @@
-# Chess Portal
+# CUBIK RICK
 **Category:** misc
 
 **Author:** R3D
