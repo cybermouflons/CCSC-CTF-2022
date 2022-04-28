@@ -18,7 +18,7 @@ N/A
  <summary>Reveal Spoiler</summary>
 
 ### SOLVED CUBE
-    CCS
+```    CCS
     _ru
     4u5
 C{d 0n7 _y0 u_l
@@ -26,7 +26,7 @@ b1k 5_c ub3 5?-
 3_1 _r3 4ll y_d
     0v3
     b3c
-    0!}
+    0!} ```
 
 ### FLAG
 CCSC{d0n7_y0u_l0v3_rub1k5_cub35?-b3c4u53_1_r34lly_d0!}
