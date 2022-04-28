@@ -14,7 +14,9 @@ N/A
 ## Solution
 <details>
  <summary>Reveal Spoiler</summary>
+ 
     ```tshark -r portal.pcapng -Y 'http.request.method == "POST"' -T fields -e http.file_data > results.txt ```
+ 
     ```while read p; do printf "\x$(printf %x ${#p})"; done < results.txt```
 
 
