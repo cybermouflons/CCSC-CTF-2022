@@ -16,23 +16,21 @@ For a more detailed description of the folder structure for challenges, please s
 Port 8000 will be used for serving static artifacts
 
 ### Challenges
+
+### Crypto
+
 | Name                                                             | Author | Ports |
 | ---------------------------------------------------------------- | ------ | ----- |
 | [Cathode Ray Thruster](crypto/cathode-ray-thruster)              | rok0s  | 9000  |
 | [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s  | -     |
 | [Get Schwifty](crypto/get_schwifty)                              | R3D    | 3137  |
+
 ### Misc
 
 | Name                            | Author | Ports |
 | ------------------------------- | ------ | ----- |
 | [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
 | [CUBIK RICK](misc/CUBIK_RICK)   | R3D    | 6910  |
-
-### Misc
-
-| Name                            | Author | Ports |
-| ------------------------------- | ------ | ----- |
-| [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
 
 ### Stego
 
