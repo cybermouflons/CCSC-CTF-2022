@@ -83,8 +83,5 @@ Port 8000 will be used for serving static artifacts
 | [babytcache](pwn/babytcache)                       | s3nn    | 2337  |
 | [rickrop](pwn/rickrop)                             | s3nn    | 3337  |
 | [forking](pwn/forking)                             | alex    | 4337  |
-| [league-of-ricks](pwn/league-of-ricks              | neo     | 5337  |
+| [league-of-ricks](pwn/league-of-ricks)             | neo     | 5337  |
 | [nohook](pwn/nohook)                               | s3nn    | 6337  |
-
-
-forking
