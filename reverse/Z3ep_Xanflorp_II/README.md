@@ -15,6 +15,6 @@ It acts weirdly. Grandpa has no time for this. Fix the circuit-board till I'm ba
 <details>
  <summary>Reveal Spoiler</summary>
 
-Flag: CCSC{Y0u_w0uld_h4v3_n3v3r_b3li3v3d_th4t_c0nstr4int_s0lv3rs_4r3_s0_gr8}\n
+Flag: CCSC{Y0u_w0uld_h4v3_n3v3r_b3li3v3d_th4t_c0nstr4int_s0lv3rs_4r3_s0_gr8}
 
 </details>
