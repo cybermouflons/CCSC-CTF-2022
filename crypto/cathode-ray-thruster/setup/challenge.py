@@ -10,7 +10,21 @@ PORT = 9000
 FLAG = open("flag.txt", "r").read().strip()
 RSA_PARAMS = RSA.importKey(open("./private-key.pem", "r").read().strip())
 
+assert RSA_PARAMS.p > RSA_PARAMS.q
+
 dp = 0
+
+def egcd(a, b):
+    if a == 0:
+        return (b, 0, 1)
+    g, y, x = egcd(b%a,a)
+    return (g, x - (b//a) * y, y)
+
+def modinv(a, m):
+    g, x, y = egcd(a, m)
+    if g != 1:
+        raise Exception('No modular inverse')
+    return x%m
 
 def s2n(s):
     return bytes_to_long(s if type(s) is bytes else bytearray(s, "latin-1"))
@@ -56,12 +70,14 @@ def sign_message(m: int):
     dp = RSA_PARAMS.d % (RSA_PARAMS.p - 1)
     dq = RSA_PARAMS.d % (RSA_PARAMS.q - 1)
 
-    time.sleep(0.02)
+    time.sleep(0.1)
 
     s1 = pow(m, dp, RSA_PARAMS.p)
     s2 = pow(m, dq, RSA_PARAMS.q)
 
-    h = (RSA_PARAMS.u * (s1-s2)) % RSA_PARAMS.q
+    qInv = modinv(RSA_PARAMS.q, RSA_PARAMS.p)
+
+    h = (qInv * (s1-s2)) % RSA_PARAMS.p
     return s2+h*RSA_PARAMS.q
 
 def laser_hit():
@@ -73,7 +89,7 @@ def laser_hit():
 def to_hex(func, *args, **kwargs):
     def wrapper():
         res = func(*args, **kwargs)
-        return (b'0x%x\n' % res) if type(res) == int else res
+        return (b'0x%0512x\n' % res) if type(res) == int else res
     return wrapper
 
 def challenge(req):
