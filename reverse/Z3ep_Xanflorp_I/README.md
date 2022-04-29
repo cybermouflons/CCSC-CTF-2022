@@ -15,5 +15,6 @@ We should program a protein that will dissolve their DNA.
 <details>
  <summary>Reveal Spoiler</summary>
 XY: -6 8 -5 10 10.5 -22.5
+
 Flag: CCSC{C0n5tr41nt_S0lver5_Are_Fun!}
 </details>
