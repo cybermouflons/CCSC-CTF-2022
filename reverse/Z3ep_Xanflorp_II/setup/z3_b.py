@@ -1,37 +1,36 @@
 from random import random
 import numpy as np
 from z3 import *
+import time
+from inputimeout import inputimeout, TimeoutOccurred
 
-import socket
-import struct
-'''
-Shit Morty... The portal gun is still broken. You need to fix it Morty BURPPP. FIX IT!!!
-Some weird shits are happening. Grandpa will have his alone time now. Fix the circuitboard till i'm back Morty.
-'''
+
+#import socket
+#import struct
+
 ##### Set up server
-addr = ("127.0.0.1",1235)
-sock : socket.socket = socket.create_server(addr,family=socket.AF_INET)
-sock.listen(1)
-conn, addr = sock.accept()
-print (f"Established connection with {addr[0]}")
-conn.send(b"Let's see if you can fix my teleport gun Morty...\n")
-
+#addr = ("127.0.0.1",1235)
+#sock : socket.socket = socket.create_server(addr,family=socket.AF_INET)
+#sock.listen(1)
+#conn, addr = sock.accept()
+#print (f"Established connection with {addr[0]}")
+print("Let's see if you can fix my teleport gun Morty...")
 try:
 	##### Intro
-	conn.send(b"Some weird equations will appear.\n")
-	conn.send(b"Respond with floats, separated by space.\n")
-	conn.send(b"You must be quick or else the portal gun's circuit will overheat!\n")
-	conn.send(b"Are you ready [Y or N]?\n")
+	print("Some weird equations will appear.")
+	print("Respond with floats, separated by space.")
+	print("You must be quick or else the portal gun's circuit will overheat!")
+	print("Are you ready [Y or N]?")
 	while True:
-		resp = conn.recv(1000)
-		if resp == b'Y\n':
+		resp = input()
+		if resp == 'Y':
 			break
 	
 	##### Set up constraints
 	MAX_INT = 100
 	GOAL = 50
 	for times in range(GOAL):
-		SIZE = 1#int(random()*10)+1
+		SIZE = int(random()*10)+1
 		x = RealVector('x', SIZE)
 		eqs = []
 		for i in range(SIZE):
@@ -53,23 +52,21 @@ try:
 		
 		##### Send equations
 		for eq in eqs:	
-			message = str(eq).replace("\n","")+"\n"
+			message = str(eq).replace("\n","")
 			message = message.replace("+-","- ")
 			message = message.replace("+","+ ")
-			conn.send(bytes(message,"utf-8"))
-		conn.send(bytes("Solution: \n","utf-8"))
-		
+			print(message)
+			
 		##### Receive response
-		conn.settimeout(10.0)
-		response = str(conn.recv(1000))
-		conn.settimeout(0)
-		response = response.replace("b\'","")[:-3].split(" ")
+		try:
+			response = inputimeout(prompt='Answer: ', timeout=10)
+		except Exception:
+			raise TimeoutOccurred
+		response = response.split(" ")
 		try:
 			reponse = [float(x) for x in response]
 		except Exception:
-			conn.send(b"Wrong format Morty, you broke it!\n")
-			conn.close()
-			sock.close()
+			print("Wrong format Morty, you broke it!")
 			break
 		
 		##### Add response to the system
@@ -78,22 +75,14 @@ try:
 		
 		##### Check if sat
 		if len(response) != len(x) or s.check() != sat:
-			conn.send(b"Wrong answer Morty...Burrrrrp\n")
-			conn.close()
-			sock.close()
+			print("Wrong answer Morty...Burrrrrp")
 			break
 	else:
-		conn.send(b"Burrrrp Good job Morty! We can play Galactic Bingo now! Here's the flag:\n")
-		conn.send(b"CCSC{C0n5tr41nt_S0lver5_Are_Fun!}\n")
-		conn.close()
-		sock.close()
+		print("Burrrrp Good job Morty! We can play Galactic Bingo now! Here's the flag:")
+		print("CCSC{Y0u_w0uld_h4v3_n3v3r_b3li3v3d_th4t_c0nstr4int_s0lv3rs_4r3_s0_gr8}")
 		
-except socket.timeout:
-	conn.send(b"Time's up Morty...You burned it!\n")
-	conn.close()
-	sock.close()
-	
-
+except TimeoutOccurred:
+	print("Time's up Morty...You burned it!")
 
 
 
