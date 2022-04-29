@@ -26,6 +26,7 @@ Port 8000 will be used for serving static artifacts
 | [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s     | -     |
 | [Get Schwifty](crypto/get_schwifty)                              | R3D       | 3137  |
 | [Rick Derivation Functions](crypto/Rick_Derivation_Functions)    | tratrafe2 | -     |
+| [Dimension SECP-256K](crypto/dimension-secp-256k/)               | rok0s     | -     |
 
 ### Forensics
 
@@ -39,11 +40,12 @@ Port 8000 will be used for serving static artifacts
 
 ### Misc
 
-| Name                                        | Author | Ports |
-| ------------------------------------------- | ------ | ----- |
-| [Pickle Rick](misc/pickle-rick)             | rok0s  | -     |
-| [CUBIK RICK](misc/CUBIK_RICK)               | R3D    | 6910  |
-| [Pokemon Adventure](misc/Pokemon-Adventure) | s1kk1s | -     |
+| Name                                        | Author  | Ports |
+| ------------------------------------------- | ------- | ----- |
+| [Pickle Rick](misc/pickle-rick)             | rok0s   | -     |
+| [CUBIK RICK](misc/CUBIK_RICK)               | R3D     | 6910  |
+| [Pokemon Adventure](misc/Pokemon-Adventure) | s1kk1s  | -     |
+| [Ricky's Pass](misc/rickys-pass/)           | kotsios | -     |
 
 ### Reverse
 
@@ -52,6 +54,7 @@ Port 8000 will be used for serving static artifacts
 | [Rickompression](reverse/Rickompression)     | tratrafe2 / Icydux | -     |
 | [Z3ep Xanflorp I](reverse/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | 1234  |
 | [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | 1235  |
+| [Tempting Fate](reverse/tempting-fate/)      | ishtar             | -     |
 
 ### Stego
 
