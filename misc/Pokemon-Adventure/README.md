@@ -1,4 +1,4 @@
-# Morty's Cleanup List
+# Pokemon Adventure
 
 **Category**: Misc
 
