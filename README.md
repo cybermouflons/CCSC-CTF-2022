@@ -40,11 +40,12 @@ Port 8000 will be used for serving static artifacts
 
 ### Misc
 
-| Name                                        | Author | Ports |
-| ------------------------------------------- | ------ | ----- |
-| [Pickle Rick](misc/pickle-rick)             | rok0s  | -     |
-| [CUBIK RICK](misc/CUBIK_RICK)               | R3D    | 6910  |
-| [Pokemon Adventure](misc/Pokemon-Adventure) | s1kk1s | -     |
+| Name                                        | Author  | Ports |
+| ------------------------------------------- | ------- | ----- |
+| [Pickle Rick](misc/pickle-rick)             | rok0s   | -     |
+| [CUBIK RICK](misc/CUBIK_RICK)               | R3D     | 6910  |
+| [Pokemon Adventure](misc/Pokemon-Adventure) | s1kk1s  | -     |
+| [Ricky's Pass](misc/rickys-pass/)           | kotsios | -     |
 
 ### Reverse
 
