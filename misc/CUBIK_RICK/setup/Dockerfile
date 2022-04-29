@@ -1,4 +1,4 @@
-FROM python:3.8.1-slim
+FROM python:2.7
 
 RUN apt-get update && apt-get install -y socat
 
