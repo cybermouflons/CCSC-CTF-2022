@@ -7,6 +7,6 @@ WORKDIR /root
 COPY chall .
 COPY flag.txt .
 
-EXPOSE 1337
-EXPOSE 1338
-CMD ["socat", "-v", "-v","TCP-LISTEN:1337,reuseaddr,fork,su=root", "EXEC:'/root/chall'"]
+EXPOSE 5337
+EXPOSE 5338
+CMD ["socat", "-v", "-v","TCP-LISTEN:5337,reuseaddr,fork,su=root", "EXEC:'/root/chall'"]
