@@ -1,0 +1,12 @@
+<?php
+class File
+{
+  public $filename = 'flag.txt';
+  public $content = 'Try harder';
+  public function __destruct()
+  {
+    file_put_contents($this->filename,$this->content);
+  }
+}
+//$o = unserialize($_GET['uxxxxxxe']);
+?>
