@@ -8,10 +8,10 @@ Get Schwifty!
 
 <details>
 
-Ruby on Rails app running in development + debug mode.
+Ruby on Rails app and the source code is provided.
 
-Visiting a route that doesn't exist shows a debug page which contains a Rails console at the bottom.
+The `master.key` is also in the files provided.
 
-We can dump `ENV` to get the flag.
+It can be used to forge any session cookies in order to get the flag from the Application Controller.
 
 </details>
