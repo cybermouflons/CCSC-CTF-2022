@@ -19,3 +19,11 @@ To lose their track, they made regular stops on planets (at most 5 seconds). The
 Just like in the SumoRick I meta-dimension, Krombopulos Michael (the Gromflomite who abducted the Rick of our dimension), was once again secretly leaving messages behind to help Morty find his Rick.
 
 Note: The flag follows the typical format and contains no numbers. 
+
+## Solution
+<details>
+ <summary>Reveal Spoiler</summary>
+
+Flag: TBA
+
+</details>

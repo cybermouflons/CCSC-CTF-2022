@@ -14,3 +14,11 @@ However, Krombopulos Michael (the Gromflomite who abducted the Rick of our dimen
 was secretly leaving messages behind to help Morty find his Rick.
 
 Note: The flag follows the typical format and contains no numbers. 
+
+## Solution
+<details>
+ <summary>Reveal Spoiler</summary>
+
+Flag: CCSC{FINDING_RICK_IS_NOT_AN_EASY_TASK}
+
+</details>
