@@ -67,7 +67,7 @@ Port 8000 will be used for serving static artifacts
 | Name                               | Author | Ports |
 | ---------------------------------- | ------ | ----- |
 | [UFO](stego/ufo)                   | koks   | -     |
-| [Meeting Area](stego/meeting-area) | koks   | -     |
+| [Meeting Area](stego/meeting-area) | koks   | 3002  |
 
 ### Web
 
