@@ -37,6 +37,8 @@ Port 8000 will be used for serving static artifacts
 | [The Citadel of Ricks](forensics/the_citadel_of_ricks) | R3D         | -     |
 | [SumoRick I](forensics/SumoRick_I)                     | tratrafe2   | -     |
 | [SumoRick II](forensics/SumoRick_II)                   | tratrafe2   | -     |
+| [BirdLanguage](forensics/BirdLanguage)                 | icyDux      | 9001  |
+
 
 ### Misc
 
@@ -56,6 +58,8 @@ Port 8000 will be used for serving static artifacts
 | [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | 1235  |
 | [Z3ep Xanflorp III](reverse/Z3ep_Xanflorp_III) | tratrafe2 / Icydux | 10002  |
 | [Tempting Fate](reverse/tempting-fate/)      | ishtar             | -     |
+| [ArtPixel](reverse/ArtPixel/)                | icyDux             | -     |
+
 
 ### Stego
 
