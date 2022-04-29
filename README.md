@@ -74,12 +74,13 @@ Port 8000 will be used for serving static artifacts
 | [Alien Gems](web/alien-gems)             | koks   | 3000  |
 | [MOrty'S Injection](web/mortys-injection/)    | kotsios | 5051  |
 | [Morty in the Clink](web/morty-in-the-clink/) | kotsios | 5052  |
+
 ### Pwn
 
 | Name                                               | Author  | Ports |
 | -------------------------------------------------- | ------- | ----- |
-| [Custom_heap_allocator](pwn/custom_heap_allocator) | condiom | 1337  |
-| [automated_pwn](pwn/automated_pwn)                 | condiom | 1338  |
+| [Meeseeks and Destroy](pwn/custom_heap_allocator)  | condiom | 1337  |
+| [Total Rickvenge](pwn/automated_pwn)               | condiom | 1338  |
 | [babytcache](pwn/babytcache)                       | s3nn    | 2337  |
 | [rickrop](pwn/rickrop)                             | s3nn    | 3337  |
 | [forking](pwn/forking)                             | alex    | 4337  |
