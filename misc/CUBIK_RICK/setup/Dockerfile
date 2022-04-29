@@ -1,6 +1,6 @@
 FROM python:3.8.1-slim
 
-RUN apt-get update
+RUN apt-get update && apt-get install -y socat
 
 # transfer files
 WORKDIR /root
