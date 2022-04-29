@@ -24,6 +24,6 @@ Note: The flag follows the typical format and contains no numbers.
 <details>
  <summary>Reveal Spoiler</summary>
 
-Flag: TBA
+Flag: CCSC{PHEW_KROMBOPULOS_SAVED_THE_DAY_AGAIN}
 
 </details>
