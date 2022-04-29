@@ -9,6 +9,8 @@ class ApplicationController < ActionController::Base
   end
 
   def auth_me_pls
+    return if session[:admin] == true
+
     session[:admin] = true
     unless params[:token] == ENV.fetch('SECRET_TOKEN')
       session[:admin] = false
