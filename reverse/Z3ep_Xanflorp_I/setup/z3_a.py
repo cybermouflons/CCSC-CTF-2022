@@ -39,7 +39,7 @@ s.add(eq1,eq2,eq3, eq4, eq5,eq6, eq7)
 #print(s.model())
 	
 ##### Receive response
-response = str(input())
+response = input()
 response = response.split(" ")
 try:
 	reponse = [float(x) for x in response]
