@@ -1,4 +1,5 @@
 ![CCSC CTF 2021](_assets/banner.png)
+
 # CCSC-CTF-2022
 
 ## Repository Structure
@@ -19,41 +20,46 @@ Port 8000 will be used for serving static artifacts
 
 ### Crypto
 
-| Name                                                             | Author | Ports |
-| ---------------------------------------------------------------- | ------ | ----- |
-| [Cathode Ray Thruster](crypto/cathode-ray-thruster)              | rok0s  | 9000  |
-| [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s  | -     |
-| [Get Schwifty](crypto/get_schwifty)                              | R3D    | 3137  |
-| [Rick Derivation Functions](crypto/Rick_Derivation_Functions)    | tratrafe2 | -    |
+| Name                                                             | Author    | Ports |
+| ---------------------------------------------------------------- | --------- | ----- |
+| [Cathode Ray Thruster](crypto/cathode-ray-thruster)              | rok0s     | 9000  |
+| [Supersingular Finite Curve](crypto/supersingular-finite-curve/) | rok0s     | -     |
+| [Get Schwifty](crypto/get_schwifty)                              | R3D       | 3137  |
+| [Rick Derivation Functions](crypto/Rick_Derivation_Functions)    | tratrafe2 | -     |
 
 ### Forensics
-| Name                                | Author      | Ports |
-| ----------------------------------- | ----------- | ----- |
-| [FakeDoor](forensics/FakeDoor/)     | icyDux      | -     |
-| [Ricklantis](forensics/ricklantis/) | anderson101 | -     |
-| [The Citadel of Ricks](forensics/the_citadel_of_ricks)|R3D|-|
-| [SumoRick I](forensics/SumoRick_I)  |tratrafe2    |-      |
-| [SumoRick II](forensics/SumoRick_II)|tratrafe2    |-      |
+
+| Name                                                   | Author      | Ports |
+| ------------------------------------------------------ | ----------- | ----- |
+| [FakeDoor](forensics/FakeDoor/)                        | icyDux      | -     |
+| [Ricklantis](forensics/ricklantis/)                    | anderson101 | -     |
+| [The Citadel of Ricks](forensics/the_citadel_of_ricks) | R3D         | -     |
+| [SumoRick I](forensics/SumoRick_I)                     | tratrafe2   | -     |
+| [SumoRick II](forensics/SumoRick_II)                   | tratrafe2   | -     |
+
 ### Misc
 
-| Name                            | Author | Ports |
-| ------------------------------- | ------ | ----- |
-| [Pickle Rick](misc/pickle-rick) | rok0s  | -     |
-| [CUBIK RICK](misc/CUBIK_RICK)   | R3D    | 6910  |
-| [Pokemon Adventure](misc/Pokemon-Adventure)   | s1kk1s    | -  |
+| Name                                        | Author | Ports |
+| ------------------------------------------- | ------ | ----- |
+| [Pickle Rick](misc/pickle-rick)             | rok0s  | -     |
+| [CUBIK RICK](misc/CUBIK_RICK)               | R3D    | 6910  |
+| [Pokemon Adventure](misc/Pokemon-Adventure) | s1kk1s | -     |
+
 ### Reverse
 
-| Name                                      | Author | Ports |
-| ----------------------------------------- | ------ | ----- |
-| [Rickompression](reverse/Rickompression)     | tratrafe2 / Icydux | -  |
-| [Z3ep Xanflorp I](reverse/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | TBA|
-| [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | TBA|
+| Name                                         | Author             | Ports |
+| -------------------------------------------- | ------------------ | ----- |
+| [Rickompression](reverse/Rickompression)     | tratrafe2 / Icydux | -     |
+| [Z3ep Xanflorp I](reverse/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | TBA   |
+| [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | TBA   |
+
 ### Stego
 
 | Name                               | Author | Ports |
 | ---------------------------------- | ------ | ----- |
 | [UFO](stego/ufo)                   | koks   | -     |
 | [Meeting Area](stego/meeting-area) | koks   | -     |
+
 ### Web
 
 | Name                                     | Author | Ports |
@@ -62,6 +68,8 @@ Port 8000 will be used for serving static artifacts
 | [Morty's Cleanup List](web/morty's-list) | s1kk1s | 5000  |
 | [Portal Gun](web/portal-gun/)            | rok0s  | 8082  |
 | [Unity](web/unity)                       | styx00 | 5001  |
+| [Alien Gems](web/alien-gems)             | koks   | 3000  |
+
 ### Pwn
 
 | Name                                               | Author  | Ports |
