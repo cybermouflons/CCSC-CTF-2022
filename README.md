@@ -72,7 +72,7 @@ Port 8000 will be used for serving static artifacts
 | [Portal Gun](web/portal-gun/)                 | rok0s   | 8082  |
 | [Unity](web/unity)                            | styx00  | 5001  |
 | [Alien Gems](web/alien-gems)                  | koks    | 3000  |
-| [MOrty'S Injection](web/mortys-injection/)    | kotsios | 5052  |
+| [MOrty'S Injection](web/mortys-injection/)    | kotsios | 5051  |
 | [Morty in the Clink](web/morty-in-the-clink/) | kotsios | 5052  |
 
 ### Pwn
