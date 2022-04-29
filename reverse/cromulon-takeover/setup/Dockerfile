@@ -8,4 +8,4 @@ COPY chall .
 
 EXPOSE 1337
 # CMD ["socat", "-vv","TCP-LISTEN:1337,reuseaddr,fork,su=root", "EXEC:'/root/pwn'"]
-CMD ["/root/chall", "1337"]
+CMD ["/root/chall", "71337"]
