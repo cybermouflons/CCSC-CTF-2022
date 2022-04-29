@@ -59,6 +59,7 @@ Port 8000 will be used for serving static artifacts
 | [Z3ep Xanflorp III](reverse/Z3ep_Xanflorp_III) | tratrafe2 / Icydux | 10002  |
 | [Tempting Fate](reverse/tempting-fate/)      | ishtar             | -     |
 | [ArtPixel](reverse/ArtPixel/)                | icyDux             | -     |
+|[Cromulon Takeover](reverse/cromulon-takeover)|neo|71337|
 
 
 ### Stego
