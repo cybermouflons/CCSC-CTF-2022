@@ -5,7 +5,7 @@
 
 ## Description
 
-Hey, Morty! Are you ready for an adventure? \*burp\*. We gotta jump into the microverse teach that arrogant Zeep a lesson! This Cathode Ray Thruster is gonna make all their motherboards go faulty ... \*burp\*
+Hey, Morty! Are you ready for an adventure? \*burp\*. We gotta jump into the microverse and teach that arrogant Zeep a lesson! This Cathode Ray Thruster is gonna make all their motherboards go faulty ... \*burp\*
 
 ## Solution
 <details>
