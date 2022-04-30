@@ -1,8 +1,10 @@
+import random
 import os
 from socket import socket
 
 from pwn import remote
 from discord.ext import commands
+from discord import Game
 from decouple import Config, RepositoryEnv
 
 
@@ -40,7 +42,15 @@ sys.stdin.close()
 """
 
 
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="!", activity=Game("Roy: A Life Well Lived. Use !help for available commands"))
+
+quotes = [
+    "I don't do magic, Morty, I do science. One takes brains, the other takes dark eye liner.",
+    "I wouldn't be much of a pickle if I could.",
+    "It's Pickle RIIIIICKK!",
+    "Whoa! Oh! Whoa, whoa, whoa!",
+    "Oh, God, moisture."
+]
 
 @bot.event
 async def on_ready():
@@ -51,6 +61,10 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
+    if bot.user.mentioned_in(message):
+        await message.channel.send(random.choice(quotes))
+        return
+
     if message.content.startswith("!") and message.guild:
         await message.channel.send("Pickle Rick only available in private message!")
     else:
