@@ -19,4 +19,5 @@ USER ctfuser
 ENV SECRET_TOKEN="no_chance_no_guess_0-0-0"
 ENV SECRET_FLAG="CCSC{sapph1re_em3rald_ruby_diam0nd}"
 
-CMD ["thin", "start"]
+COPY entrypoint.sh .
+ENTRYPOINT [ "./entrypoint.sh" ]
