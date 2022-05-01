@@ -34,4 +34,6 @@ print(base64.b64encode(golf_payload).decode("utf-8"))
 ```
 
 Note that you need to use `ls` initially, to observe that the flag is in the root dir.
+
+**UPDATE: ** Apparently the protocol line is not required! So this can be reduced to 21 bytes. That's why [Pickle Rick II](../pickle-rick-ii/) was created
 </details>

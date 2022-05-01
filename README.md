@@ -85,12 +85,13 @@ Port 8000 will be used for serving static artifacts
 
 ### Pwn
 
-| Name                                              | Author  | Ports |
-| ------------------------------------------------- | ------- | ----- |
-| [Meeseeks and Destroy](pwn/custom_heap_allocator) | condiom | 1337  |
-| [Total Rickvenge](pwn/automated_pwn)              | condiom | 1338  |
-| [babytcache](pwn/babytcache)                      | s3nn    | 2337  |
-| [rickrop](pwn/rickrop)                            | s3nn    | 3337  |
-| [forking](pwn/forking)                            | alex    | 4337  |
-| [league-of-ricks](pwn/league-of-ricks)            | neo     | 5337  |
-| [nohook](pwn/nohook)                              | s3nn    | 6337  |
+| Name                                                  | Author    | Ports |
+| ----------------------------------------------------- | --------- | ----- |
+| [Meeseeks and Destroy](pwn/meeseeks-and-destroy/)     | condiom   | 1337  |
+| [Total Rickvenge](pwn/total-rickvenge/)               | condiom   | 1338  |
+| [babytcache](pwn/babytcache)                          | s3nn      | 2337  |
+| [rickrop](pwn/rickrop)                                | s3nn      | 3337  |
+| [forking](pwn/forking)                                | alex10791 | 4337  |
+| [league-of-ricks](pwn/league-of-ricks)                | neo       | 5337  |
+| [nohook](pwn/nohook)                                  | s3nn      | 6337  |
+| [rickshank-rickdemption](pwn/rickshank-rickdemption/) | alex10791 | 7337  |
