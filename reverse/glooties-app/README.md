@@ -11,5 +11,5 @@ Apparently Jerry doesn't know how to read the warnings! Do you ?
 <details>
  <summary>Reveal Spoiler</summary>
 
-    TO BE ADDED
+    FLAG: `ccsc{ch3ck_l0g5_aNd_l1st3n}`
 </details>
