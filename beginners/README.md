@@ -1,0 +1,1 @@
+Rick is releasing a new category for Beginners! In the following days he would be releasing new challenges to introduce noobs 😉 to the world of hacking! You will be notified with a new announcement when a new challenge has been added to the CTF! Stay tuned!
