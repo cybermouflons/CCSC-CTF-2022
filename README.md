@@ -45,21 +45,23 @@ Port 8000 will be used for serving static artifacts
 | Name                                        | Author  | Ports |
 | ------------------------------------------- | ------- | ----- |
 | [Pickle Rick](misc/pickle-rick)             | rok0s   | -     |
+| [Pickle Rick II](misc/pickle-rick-ii)       | rok0s   | -     |
 | [CUBIK RICK](misc/CUBIK_RICK)               | R3D     | 6910  |
 | [Pokemon Adventure](misc/Pokemon-Adventure) | s1kk1s  | -     |
 | [Ricky's Pass](misc/rickys-pass/)           | kotsios | -     |
 
 ### Reverse
 
-| Name                                         | Author             | Ports |
-| -------------------------------------------- | ------------------ | ----- |
-| [Rickompression](reverse/Rickompression)     | tratrafe2 / Icydux | -     |
-| [Z3ep Xanflorp I](reverse/Z3ep_Xanflorp_I)   | tratrafe2 / Icydux | 1234  |
-| [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II) | tratrafe2 / Icydux | 1235  |
-| [Z3ep Xanflorp III](reverse/Z3ep_Xanflorp_III) | tratrafe2 / Icydux | 10002  |
-| [Tempting Fate](reverse/tempting-fate/)      | ishtar             | -     |
-| [ArtPixel](reverse/ArtPixel/)                | icyDux             | -     |
-|[Cromulon Takeover](reverse/cromulon-takeover)|neo|7337|
+| Name                                           | Author             | Ports |
+| ---------------------------------------------- | ------------------ | ----- |
+| [Rickompression](reverse/Rickompression)       | tratrafe2 / Icydux | -     |
+| [Z3ep Xanflorp I](reverse/Z3ep_Xanflorp_I)     | tratrafe2 / Icydux | 1234  |
+| [Z3ep Xanflorp II](reverse/Z3ep_Xanflorp_II)   | tratrafe2 / Icydux | 1235  |
+| [Z3ep Xanflorp III](reverse/Z3ep_Xanflorp_III) | tratrafe2 / Icydux | 10002 |
+| [Tempting Fate](reverse/tempting-fate/)        | ishtar             | -     |
+| [ArtPixel](reverse/ArtPixel/)                  | icyDux             | -     |
+| [Cromulon Takeover](reverse/cromulon-takeover) | neo                | 7337  |
+| [Glootie's App](reverse/glooties-app/)         | En3rRe             | -     |
 
 
 ### Stego
@@ -71,24 +73,24 @@ Port 8000 will be used for serving static artifacts
 
 ### Web
 
-| Name                                     | Author | Ports |
-| ---------------------------------------- | ------ | ----- |
-| [Planet-TC39](web/planet-tc39)           | koks   | 3000  |
-| [Morty's Cleanup List](web/morty's-list) | s1kk1s | 5000  |
-| [Portal Gun](web/portal-gun/)            | rok0s  | 8082  |
-| [Unity](web/unity)                       | styx00 | 5001  |
-| [Alien Gems](web/alien-gems)             | koks   | 3001  |
+| Name                                          | Author  | Ports |
+| --------------------------------------------- | ------- | ----- |
+| [Planet-TC39](web/planet-tc39)                | koks    | 3000  |
+| [Morty's Cleanup List](web/morty's-list)      | s1kk1s  | 5000  |
+| [Portal Gun](web/portal-gun/)                 | rok0s   | 8082  |
+| [Unity](web/unity)                            | styx00  | 5001  |
+| [Alien Gems](web/alien-gems)                  | koks    | 3001  |
 | [MOrty'S Injection](web/mortys-injection/)    | kotsios | 5051  |
 | [Morty in the Clink](web/morty-in-the-clink/) | kotsios | 5052  |
 
 ### Pwn
 
-| Name                                               | Author  | Ports |
-| -------------------------------------------------- | ------- | ----- |
-| [Meeseeks and Destroy](pwn/custom_heap_allocator)  | condiom | 1337  |
-| [Total Rickvenge](pwn/automated_pwn)               | condiom | 1338  |
-| [babytcache](pwn/babytcache)                       | s3nn    | 2337  |
-| [rickrop](pwn/rickrop)                             | s3nn    | 3337  |
-| [forking](pwn/forking)                             | alex    | 4337  |
-| [league-of-ricks](pwn/league-of-ricks)             | neo     | 5337  |
-| [nohook](pwn/nohook)                               | s3nn    | 6337  |
+| Name                                              | Author  | Ports |
+| ------------------------------------------------- | ------- | ----- |
+| [Meeseeks and Destroy](pwn/custom_heap_allocator) | condiom | 1337  |
+| [Total Rickvenge](pwn/automated_pwn)              | condiom | 1338  |
+| [babytcache](pwn/babytcache)                      | s3nn    | 2337  |
+| [rickrop](pwn/rickrop)                            | s3nn    | 3337  |
+| [forking](pwn/forking)                            | alex    | 4337  |
+| [league-of-ricks](pwn/league-of-ricks)            | neo     | 5337  |
+| [nohook](pwn/nohook)                              | s3nn    | 6337  |
