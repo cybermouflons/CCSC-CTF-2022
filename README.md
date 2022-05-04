@@ -27,6 +27,7 @@ Port 8000 will be used for serving static artifacts
 | [Get Schwifty](crypto/get_schwifty)                              | R3D       | 3137  |
 | [Rick Derivation Functions](crypto/Rick_Derivation_Functions)    | tratrafe2 | -     |
 | [Dimension SECP-256K](crypto/dimension-secp-256k/)               | rok0s     | -     |
+| [Anatomy Park](crypto/anatomy-park/)                             | alex10791 | 9001  |
 
 ### Forensics
 
