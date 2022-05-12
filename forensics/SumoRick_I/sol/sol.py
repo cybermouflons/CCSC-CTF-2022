@@ -5,20 +5,26 @@ root = tree.getroot()
 departures = {}
 arrivals = {}
 ships = set()
+
+#Find the departures and arrivals of each spaceship
 for child in root:
 	id = child.attrib["id"]
 	if id not in ships:
 		ships.add(id)
 		departures[id]=[]
 		arrivals[id]=[]
-	departures[id].append(child.attrib["departLane"][0])
-	arrivals[id].append(child.attrib["arrivalLane"][-2])
+	departures[id].append(child.attrib["departLane"][0]) #First character
+	arrivals[id].append(child.attrib["arrivalLane"][2]) #Third character
 
-sentences = []
+#Trace the route for each spaceship by 
+# joining the departures' characters and 
+# adding the last arrival character.
+routes = {}
 for ship in ships:
 	departures[ship].append(arrivals[ship][-1])
-	sentences.append("".join(x for x in departures[ship]))
+	routes[ship]=("".join(x for x in departures[ship]))
 	
-for sentence in sentences:
-	if sentence.startswith("CCSC"):
-		print(sentence)
+#Find the route that begins with CCSC
+for ship in ships:
+	if routes[ship].startswith("CCSC"):
+		print(ship,":",routes[ship])
