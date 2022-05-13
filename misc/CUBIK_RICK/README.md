@@ -18,7 +18,8 @@ N/A
  <summary>Reveal Spoiler</summary>
 
 ### SOLVED CUBE
-```    CCS
+```    
+    CCS
     _ru
     4u5
 C{d 0n7 _y0 u_l
